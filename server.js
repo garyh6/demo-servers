@@ -33,4 +33,4 @@ app.get("/posts", authenticateToken, (req, res) => {
   res.json(posts);
 });
 
-app.listen(3000);
+app.listen(5000);
